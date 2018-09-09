@@ -5,7 +5,7 @@ class Outter {
 
     void getAge() {
         this.new Inner().getAge();
-        new Inner().getAge();
+        new Inner().getAge(); //这两种是一样的
     }
 
     //成员内部类
